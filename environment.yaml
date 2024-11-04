@@ -1,0 +1,13 @@
+name: smoke
+channels:
+  - defaults
+  - conda-forge # Added conda-forge to make sure nbstripout can be installed
+dependencies:
+  - python=3.12.4
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter
+  - nbstripout=0.7.1
+  
