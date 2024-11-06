@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.5.0  # You can check for the latest stable version if needed
+    hooks:
+      - id: nbstripout
+        name: nbstripout
+        description: "Remove output from Jupyter and IPython notebooks"
+        entry: nbstripout
+        language: system
+        files: \.ipynb$
