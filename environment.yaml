@@ -4,6 +4,7 @@ channels:
   - conda-forge # Added conda-forge to make sure nbstripout can be installed
 dependencies:
   - python=3.12.4
+  - pre-commit
   - numpy
   - pandas
   - matplotlib
